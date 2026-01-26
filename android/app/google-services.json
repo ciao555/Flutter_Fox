@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "595228685506",
+    "project_id": "laos-pic",
+    "storage_bucket": "laos-pic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595228685506:android:bf2f14a22a022716abb75b",
+        "android_client_info": {
+          "package_name": "com.example.mobile_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNPwqNVw5q-xkwMLsH4R56RpOSQs-vXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595228685506:android:0400ad7a42ddf117abb75b",
+        "android_client_info": {
+          "package_name": "lao.pubget.pub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUNPwqNVw5q-xkwMLsH4R56RpOSQs-vXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
