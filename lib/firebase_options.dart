@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBBughgIYOWTn6Yu-I6UlMRlh3-q9ulxBk',
-    appId: '1:595228685506:web:199a037614af9160abb75b',
-    messagingSenderId: '595228685506',
-    projectId: 'laos-pic',
-    authDomain: 'laos-pic.firebaseapp.com',
-    storageBucket: 'laos-pic.firebasestorage.app',
-    measurementId: 'G-ZT6EGSZ57M',
+    apiKey: 'AIzaSyCVEbTL-EeoJMIN4qBajkw7eRXrs7eYZr4',
+    appId: '1:979177717842:web:84d0f2f463c2f32e259f8b',
+    messagingSenderId: '979177717842',
+    projectId: 'tanapoom-shop',
+    authDomain: 'tanapoom-shop.firebaseapp.com',
+    storageBucket: 'tanapoom-shop.firebasestorage.app',
+    measurementId: 'G-Z9H8RETTSJ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBUNPwqNVw5q-xkwMLsH4R56RpOSQs-vXA',
-    appId: '1:595228685506:android:bf2f14a22a022716abb75b',
-    messagingSenderId: '595228685506',
-    projectId: 'laos-pic',
-    storageBucket: 'laos-pic.firebasestorage.app',
+    apiKey: 'AIzaSyCWRZoso-nUwb2DCmW5y-yIzuNHLUfBbOs',
+    appId: '1:979177717842:android:88f24785fc0ba4ba259f8b',
+    messagingSenderId: '979177717842',
+    projectId: 'tanapoom-shop',
+    storageBucket: 'tanapoom-shop.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBRkuUKRwKZAN67y8peHaCl9TlXtzXn6Jw',
-    appId: '1:595228685506:ios:f5d5ef3843e43567abb75b',
-    messagingSenderId: '595228685506',
-    projectId: 'laos-pic',
-    storageBucket: 'laos-pic.firebasestorage.app',
-    iosBundleId: 'com.example.mobileFirebase',
+    apiKey: 'AIzaSyC7KbW98v4eQg45bZfRMb9Fu4x4Cg-IS5E',
+    appId: '1:979177717842:ios:f9d5d25353adb561259f8b',
+    messagingSenderId: '979177717842',
+    projectId: 'tanapoom-shop',
+    storageBucket: 'tanapoom-shop.firebasestorage.app',
+    iosBundleId: 'com.example.flutterApplication1',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBRkuUKRwKZAN67y8peHaCl9TlXtzXn6Jw',
-    appId: '1:595228685506:ios:f5d5ef3843e43567abb75b',
-    messagingSenderId: '595228685506',
-    projectId: 'laos-pic',
-    storageBucket: 'laos-pic.firebasestorage.app',
-    iosBundleId: 'com.example.mobileFirebase',
+    apiKey: 'AIzaSyC7KbW98v4eQg45bZfRMb9Fu4x4Cg-IS5E',
+    appId: '1:979177717842:ios:f9d5d25353adb561259f8b',
+    messagingSenderId: '979177717842',
+    projectId: 'tanapoom-shop',
+    storageBucket: 'tanapoom-shop.firebasestorage.app',
+    iosBundleId: 'com.example.flutterApplication1',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBBughgIYOWTn6Yu-I6UlMRlh3-q9ulxBk',
-    appId: '1:595228685506:web:346f67ab8138c511abb75b',
-    messagingSenderId: '595228685506',
-    projectId: 'laos-pic',
-    authDomain: 'laos-pic.firebaseapp.com',
-    storageBucket: 'laos-pic.firebasestorage.app',
-    measurementId: 'G-FDQ4Y1KNCE',
+    apiKey: 'AIzaSyCVEbTL-EeoJMIN4qBajkw7eRXrs7eYZr4',
+    appId: '1:979177717842:web:0c4ef3216b3f27cc259f8b',
+    messagingSenderId: '979177717842',
+    projectId: 'tanapoom-shop',
+    authDomain: 'tanapoom-shop.firebaseapp.com',
+    storageBucket: 'tanapoom-shop.firebasestorage.app',
+    measurementId: 'G-ECZB1Y2TER',
   );
 }
