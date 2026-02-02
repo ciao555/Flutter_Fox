@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'pages/food_list_page.dart';
 
-class App1Entry extends StatelessWidget {
-  const App1Entry({super.key});
+class App2 extends StatelessWidget {
+  const App2({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fox Food',
       debugShowCheckedModeBanner: false,
+      title: 'Food App',
       theme: ThemeData(
-        primaryColor: const Color(0xFFFF7A00),
+        primarySwatch: Colors.orange,
       ),
       home: const FoodListPage(),
     );

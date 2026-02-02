@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
-import 'app1/app1_Petch.dart';
-import 'app2/app2_Poom.dart';
+import 'app1/app1.dart';
+import 'app2/app2.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,37 +18,40 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: MenuPage(),
     );
   }
 }
 
-class HomePage extends StatelessWidget {
+class MenuPage extends StatelessWidget {
+  const MenuPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('รวมแอพ')),
+      appBar: AppBar(title: const Text('เลือกแอพ')),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ElevatedButton(
+            child: const Text('App 1'),
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) => const App1Entry()),
+                MaterialPageRoute(builder: (_) => const App1()),
               );
             },
-            child: const Text('App คนที่ 1'),
           ),
           ElevatedButton(
+            child: const Text('App 2'),
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) => const App2Entry()),
+                MaterialPageRoute(builder: (_) => const App2()),
               );
             },
-            child: const Text('App คนที่ 2'),
           ),
         ],
       ),
