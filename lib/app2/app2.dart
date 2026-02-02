@@ -8,11 +8,8 @@ class App2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Food App',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      home: const FoodListPage(),
+      title: 'App 2',
+      home: const FoodListPage(), // 👈 จุดสำคัญ
     );
   }
 }

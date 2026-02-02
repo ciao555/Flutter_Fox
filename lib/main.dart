@@ -18,9 +18,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MenuPage(),
+      theme: ThemeData(
+        useMaterial3: false, // 👈 กันจอโล่งจาก theme
+      ),
+      home: const MenuPage(),
     );
   }
 }
@@ -31,29 +34,34 @@ class MenuPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('เลือกแอพ')),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          ElevatedButton(
-            child: const Text('App 1'),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const App1()),
-              );
-            },
-          ),
-          ElevatedButton(
-            child: const Text('App 2'),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const App2()),
-              );
-            },
-          ),
-        ],
+      appBar: AppBar(
+        title: const Text('เลือกแอพ'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const App1()),
+                );
+              },
+              child: const Text('เข้า App 1'),
+            ),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const App2()),
+                );
+              },
+              child: const Text('เข้า App 2'),
+            ),
+          ],
+        ),
       ),
     );
   }
